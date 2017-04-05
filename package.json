@@ -1,6 +1,12 @@
 {
   "name": "delivery",
   "description": "Bidirectional File Transfers For Node.js via Socket.IO",
+  "nativescript": {
+    "platforms": {
+      "ios": "2.0.0",
+      "android": "2.0.0"
+    }
+  },
   "author": {
     "name": "Liam Kaufman",
     "email": "liam.kaufman@gmail.com",
@@ -17,12 +23,6 @@
   "repository": {
     "type": "git",
     "url": "https://liamks@github.com/liamks/Delivery.js.git"
-  },
-  "engines": {
-    "node": ">=0.6.0"
-  },
-  "dependencies": {
-    "mime": "*"
   },
   "licenses": [
     {
